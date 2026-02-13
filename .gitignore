@@ -1,0 +1,31 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / ML
+.ipynb_checkpoints/
+
+# Artifacts (modelos e scalers treinados)
+#artifacts/
+
+# Dados locais (descomente se nao quiser versionar)
+# data/
+
+# Variaveis de ambiente
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
