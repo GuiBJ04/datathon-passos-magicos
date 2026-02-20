@@ -24,7 +24,7 @@ EPOCHS = 100                   # epochs=100
 BATCH_SIZE = 32                # batch=32
 TRAIN_TEST_SPLIT = 0.8         # 80% treino
 
-FEATURES = ["Defasagem", "Fase", "INDE 2024", "Pedra 2024", "Idade", "Ano ingresso", "Instituição de ensino"]
+FEATURES = ["Defasagem", "Fase", "INDE 2024", "Pedra 2024", "Idade", "Gênero", "Ano ingresso", "Instituição de ensino"]
 TARGET = "Defasagem"
 
 EARLY_STOPPING_PATIENCE = 10
